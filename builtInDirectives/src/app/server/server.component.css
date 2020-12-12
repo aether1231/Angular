@@ -14,3 +14,7 @@ input[type="text"] {
 label {
   display: block;
 }
+
+.online {
+  font-weight: bold;
+}
