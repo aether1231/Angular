@@ -1,0 +1,16 @@
+h3 {
+  color: red;
+}
+
+p {
+  margin-top: 8px;
+  color: green;
+}
+
+input[type="text"] {
+  margin-right: 8px;
+}
+
+label {
+  display: block;
+}

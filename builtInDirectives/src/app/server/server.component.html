@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Built In Directives</h3>
+            <label>Server Name</label>
+            <input type="text" [(ngModel)]="serverName" />
+            <button class="btn btn-primary" [disabled]="!allowAddServer" (click)="onCreateServer()">Add Server</button>
+            <p *ngIf="serverCreated; else noServer">{{ serverCreationStatus }}</p>
+            <ng-template #noServer>
+                <p>No server was created</p>
+            </ng-template>
+        </div>
+    </div>
+</div>
